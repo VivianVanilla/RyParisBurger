@@ -84,7 +84,27 @@ h2 {
     height: 15rem;
     object-fit: cover;
 }
+.showcaseimages {
+    width:  15rem;
+    height: 12rem;
+    object-fit: cover;
+}
 .recipes {
     background-color: lightsteelblue;
+    margin: 0rem 0rem ;
+    padding: 0rem 10rem;
 
+}
+.recipes .imagebox p {
+    background-color: azure;
+    padding: 0.5rem;
+    font-size: 1rem;
+    
+}
+.blue {
+    background-color: lightsteelblue;
+    padding:0.5rem;
+}
+.navbottom {
+  align-items: center;
 }
