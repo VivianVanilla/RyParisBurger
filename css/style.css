@@ -1,3 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    
+}
+.left {
+    text-align: left;
+}
+div {
+    text-align: center;
+}
 nav {
     display: flex;
     background-color: orange;
@@ -7,7 +23,8 @@ nav {
 }
 a {
     color: black;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: 800;
 
 }
 .navimage {
@@ -28,11 +45,46 @@ ul {
     display: flex;
     position: relative;
     justify-content: center;
+ 
+    
 }
 .heroimage {
     display:flex;
-
+    position: relative;
+    justify-content: center;
+    width: 120%;
+    height: 500px;
+    object-fit: cover;
+    
 }
 h1 {
     position: absolute;
+    background-color:white;
+    bottom: 10%;
+    padding: 20px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: left;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 10rem ;
+}
+.imagebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.categoryimages {
+    width:  22rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.recipes {
+    background-color: lightsteelblue;
+
 }
