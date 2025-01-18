@@ -1,6 +1,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini.png");
+    
+}
 p {
     font-size: 1.5rem;
     padding: 0;
@@ -107,4 +111,12 @@ h2 {
 }
 .navbottom {
   align-items: center;
+}
+h3 {
+margin-left: 2rem;
+}
+.bottom {
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    align-items: center;
 }
